@@ -186,10 +186,12 @@ export default function Cardapio() {
                       R$ {pizza.preco.toFixed(2)}
                     </p>
                   </div>
+                {/* COMENTÁRIO JSX 
                   <button className="pizza-button bg-primary hover:bg-red-700 text-white flex items-center gap-2">
                     <ShoppingCart className="w-5 h-5" />
                     <span className="hidden sm:inline">Pedir</span>
                   </button>
+               */}
                 </div>
               </div>
             </div>
