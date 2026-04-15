@@ -147,7 +147,7 @@ export default function Cardapio() {
                     className={`w-5 h-5 transition-colors ${
                       favoritas.includes(pizza.id)
                         ? 'fill-primary text-primary'
-                        : 'text-foreground'
+                        : 'text-black'
                     }`}
                   />
                 </button>
