@@ -24,7 +24,7 @@ export default function Galeria() {
       size: 'md:col-span-1 md:row-span-1',
     },
     {
-      src: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663041665154/TpTS7wCoqVWBNGqE6YSZGa/calamari-pizzeria-interior-En9R2ictSjzjpGnACEcZSe.webp',
+      src: 'src/images/pizzaria-interior.png',
       alt: 'Interior da Pizzaria',
       title: 'Interior da Pizzaria',
       size: 'md:col-span-2 md:row-span-1',
