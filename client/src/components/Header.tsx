@@ -19,14 +19,14 @@ export default function Header() {
       <div className="container flex items-center justify-between h-20">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-            <span className="text-2xl font-bold text-primary-foreground">🍕</span>
+          <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center">
+            <img src="src/images/logo-calamari-4K.jfif" alt="logo calamari" className='w-16 h-16 bg-primary rounded-full flex items-center justify-center' />
           </div>
           <div className="hidden sm:block">
-            <h1 className="text-xl font-bold text-primary" style={{ fontFamily: 'Playfair Display' }}>
+            <h1 className="text-2xl font-bold text-primary" style={{ fontFamily: 'Playfair Display' }}>
               Calamari
             </h1>
-            <p className="text-xs text-foreground/60">Pizzaria </p>
+            <p className="text-sm text-foreground/60">Pizzaria </p>
           </div>
         </div>
 
