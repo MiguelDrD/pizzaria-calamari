@@ -88,7 +88,7 @@ export default function Apresentacao() {
           </div>
           <div className="pizza-card overflow-hidden fade-in-up" style={{ animationDelay: '0.2s' }}>
             <img
-              src="src/images/pizzaria-interior.png"
+              src="client/src/images/pizzaria-interior.png"
               alt="Interior da Pizzaria Calamari"
               className="w-full h-96 object-cover"
             />
