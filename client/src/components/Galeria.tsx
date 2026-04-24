@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { X } from 'lucide-react';
+import pizzariaInterior from '../images/pizzaria-interior.png';
 
 export default function Galeria() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -24,7 +25,7 @@ export default function Galeria() {
       size: 'md:col-span-1 md:row-span-1',
     },
     {
-      src: 'src/images/pizzaria-interior.png',
+      src: pizzariaInterior,
       alt: 'Interior da Pizzaria',
       title: 'Interior da Pizzaria',
       size: 'md:col-span-2 md:row-span-1',
