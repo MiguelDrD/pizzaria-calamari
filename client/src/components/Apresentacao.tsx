@@ -1,4 +1,5 @@
 import { Utensils, Clock, Award, Users } from 'lucide-react';
+import pizzariaInterior from '../images/pizzaria-interior.png';
 
 export default function Apresentacao() {
   const features = [
@@ -88,7 +89,7 @@ export default function Apresentacao() {
           </div>
           <div className="pizza-card overflow-hidden fade-in-up" style={{ animationDelay: '0.2s' }}>
             <img
-              src="client/src/images/pizzaria-interior.png"
+              src={pizzariaInterior}
               alt="Interior da Pizzaria Calamari"
               className="w-full h-96 object-cover"
             />

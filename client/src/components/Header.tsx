@@ -1,6 +1,7 @@
 import { Menu, X, Moon, Sun } from 'lucide-react';
 import { useState } from 'react';
 import { useTheme } from '../contexts/ThemeContext';
+import logoCalamari from '../images/logo-calamari-4K.jfif';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center">
-            <img src="client/src/images/logo-calamari-4K.jfif" alt="logo calamari" className='w-16 h-16 bg-primary rounded-full flex items-center justify-center' />
+            <img src={logoCalamari} alt="logo calamari" className='w-16 h-16 bg-primary rounded-full flex items-center justify-center' />
           </div>
           <div className="hidden sm:block">
             <h1 className="text-2xl font-bold text-primary" style={{ fontFamily: 'Playfair Display' }}>
